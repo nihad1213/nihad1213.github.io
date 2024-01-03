@@ -1,0 +1,324 @@
+/*Beginning of the First part of Web page*/
+
+body,html {
+    height: 100%;
+}
+
+.FirstPart {
+    background-image: url("picture1.jpg");
+    background-color: white;
+    height: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    text-align: center;
+}
+
+.Center {
+    padding: 15px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -ms-transform: translateX(-50%) translateY(-50%);
+    -webkit-transform: translate(-50%,-50%);
+    transform: translate(-50%,-50%);
+}
+
+h1 {
+    font-size: 45px;
+    font-weight: 700;
+    letter-spacing: 1px;
+}
+
+h3 {
+    font-size: 14px;
+    line-height: 32px;
+    font-weight: 400;
+    letter-spacing: 4.5px;
+}
+
+h1, h3 {
+    text-transform: uppercase;
+    color: white;
+    font-weight: 500px;
+}
+
+strong {
+    color: #FDCC2C;
+}
+
+.btn1 {
+    background: transparent;
+    border: 3px solid #ffffff;
+    border-radius: 0px;
+    color: #ffffff;
+    font-weight: 700;
+    letter-spacing: 1px;
+    padding: 14px 35px;
+    margin-top: 42px;
+    margin-right: 16px;
+    text-decoration: none;
+    text-align: center;
+    
+}
+
+
+.btn2 {
+    background: #ffffff;
+    border: 3px solid #ffffff;
+    border-radius: 0px;
+    color: #242424;
+    font-weight: 700;
+    letter-spacing: 1px;
+    padding: 14px 35px;
+    margin-top: 42px;
+    margin-right: 16px;
+    border-color: transparent;
+    text-decoration: none;
+    text-align: center;
+}
+
+.btns {
+    padding-top: 30px;
+}
+/*End of the First part of Web page*/
+
+/*Beginning of the Second Part of Web Page*/
+p {
+    color: grey;
+    letter-spacing: 0.8px;
+    line-height: 28px;
+  }
+
+.secondimage{
+    display: block;
+    width: 50%;
+    height: auto;
+    visibility: visible;
+}
+
+.SecondPart{
+    float: right;
+    padding-top: 70px;
+    padding-bottom: 70px;
+    font-size: 13px;
+    
+}
+
+.Secondh1 {
+    color: black;
+}
+
+.Secondh3 {
+    color: black;
+}
+/*End of the Second Part of Web Page*/
+
+/*Beginning of the Third Part of Web Page*/
+
+.thirdpart {
+    padding-top: 50px;
+}
+
+.svg {
+    fill:white;
+}
+
+.third {
+    background-color: #FDCC2C;
+}
+
+.media-heading {
+    letter-spacing: 1px;
+    color: #ffffff;
+    text-transform: uppercase;
+}  
+
+.btn3 {
+    background: transparent;
+    border: 3px solid #ffffff;
+    border-radius: 0px;
+    color: #ffffff;
+    font-size: 18px;
+    font-weight: 700;
+    letter-spacing: 1px;
+    padding: 14px 36px;
+    margin-top: 62px;
+    margin-right: 16px;
+    margin-bottom: 62px;
+}
+/*End of the Third Part of Web Page */
+
+/*Beginning of the Fourth Part of Web Page*/
+.four {
+    justify-items: center;
+}
+
+.fourthpart {
+    text-align: center;
+    position: relative;
+    min-height: 1px;
+    padding-right: 15px;
+    padding-left: 15px;
+    font-size: 14px;
+}
+
+.getintouch {
+    color: #242424;
+    margin-top: 65px;
+    margin-bottom: 10px;
+}
+
+
+.paragraph2 {
+    color: grey;
+    letter-spacing: 0.8px;
+    line-height: 28px;
+    margin: 0 0 10px;
+    display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+}
+
+.firstinput {
+    background: transparent;
+    border: 1px solid #f0f0f0;
+    border-radius: 0px;
+    box-shadow: none;
+    font-size: 16px;
+    width: 50%;
+    height: 55px;
+    font-size: 14px;
+    color: #555;
+    background-color: #fff;
+    background-image: none;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    writing-mode: horizontal-tb !important;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.secondinput {
+    background: transparent;
+    border: 1px solid #f0f0f0;
+    border-radius: 0px;
+    box-shadow: none;
+    font-size: 16px;
+    width: 50%;
+    height: 55px;
+    font-size: 14px;
+    color: #555;
+    background-color: #fff;
+    background-image: none;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    writing-mode: horizontal-tb !important;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.thirdinput {
+    background: transparent;
+    border: 1px solid #f0f0f0;
+    border-radius: 0px;
+    box-shadow: none;
+    font-size: 16px;
+    margin-bottom: 16px;
+    width: 100%;
+    height: 34px;
+    font-size: 14px;
+    color: #555;
+    background-color: #fff;
+    background-image: none;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    writing-mode: horizontal-tb !important;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.submit  {
+    background: #242424;
+    border: none;
+    color: #ffffff;
+    font-size: 15px;
+    font-weight: 400;
+    letter-spacing: 2px;
+    font: inherit;
+    border-width: 2px;
+    border-style: outset;
+    width: 50%;
+    min-height: 1px;
+    cursor: pointer;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    padding: 14px;
+}
+/* End of the Fourth Part of Web Page */
+
+/* Beginning of Last Part of Web page */
+footer {
+    background-color: #242424;
+ 
+}
+
+.beginning {
+    margin-right: -15px;
+    margin-left: -15px;
+}
+
+.secondsvg {
+    fill: white;
+    
+}
+
+.last {
+    float: left;
+    width: 50%;
+
+}
+
+.lasth2 {
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    color: white;
+
+}
+
+.lastparagraph {
+    color: #828282;
+    letter-spacing: 1px;
+    line-height: 28px;
+    margin: 0 0 10px;
+    display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    font-size: 14px;
+    box-sizing: border-box;
+}
+
+.copyright {
+    padding-top: 10px;
+}
+
+.last2h2 {
+    color: white;
+}
+
+.lastpart2 {
+    float: left;
+}
+
+.icons li {
+    color: grey;
+    display: inline-block;
+    letter-spacing: 12px;
+    display: inline-block;
+}
+
+/* End of the Last Part of Web page */
